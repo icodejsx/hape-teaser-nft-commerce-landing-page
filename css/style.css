@@ -252,5 +252,11 @@ section .cards .card .ratings .stars i{
 /* media query responsiveness */
 
 @media screen and (max-width: 768px) {
-    
+   section  .salescard{
+        width:90%;
+        height:auto;
+        flex-direction:column;
+        flex-wrap:wrap;
+        gap:1.5rem;
+    }
 }
